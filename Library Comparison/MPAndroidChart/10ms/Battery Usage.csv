@@ -1,6 +1,0 @@
-timestamp,batteryLevel,wifiOn,mobileOn,audioVolume,charging,usbCharge,acCharge,batteryTemperature
-0,72,false,false,0,true,true,false,30.8
-30000,72,false,false,0,true,true,false,30.8
-60000,72,false,false,0,true,true,false,30.9
-90000,72,false,false,0,true,true,false,31.1
-120000,72,false,false,0,true,true,false,31.2
