@@ -1,0 +1,16 @@
+; Open desired file
+fileopen fhandle 'catheter_data.txt' 0
+
+:loop
+; Read a line from the file
+filereadln fhandle line
+if result goto fclose
+; Send the line
+sendln line
+mpause 25
+; Repeat until the end of the file.
+goto loop
+
+:fclose
+; Close the file
+fileclose fhandle
